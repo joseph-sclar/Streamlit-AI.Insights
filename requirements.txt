@@ -1,4 +1,4 @@
-/opt/render/project/src/.venv/bin/python -m pip install --upgrade pip
+pip install --upgrade pip
 
 langchain==0.0.157
 openai==0.27.5
