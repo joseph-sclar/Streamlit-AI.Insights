@@ -1,14 +1,7 @@
 import os
-#os.chdir("/Users/oanottage/Desktop/Personal_Projects/LangChainStreamLit/")
 
-#import configparser
-#config = configparser.ConfigParser()
-#config.read('secrets/config.ini')
-
-
-os.environ["OPENAI_API_KEY"] = "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"
 openai_api_key = os.getenv('OPENAI_API_KEY')
-#openai_api_key = os.environ['OPENAI_API_KEY']
+
 
 from langchain.document_loaders import UnstructuredPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
