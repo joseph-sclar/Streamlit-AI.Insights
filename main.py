@@ -6,7 +6,7 @@ import os
 #config.read('secrets/config.ini')
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 openai_api_key = os.getenv('OPENAI_API_KEY')
 #openai_api_key = os.environ['OPENAI_API_KEY']
 
